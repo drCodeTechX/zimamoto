@@ -73,10 +73,10 @@ export default function NetworkView({ nodes }: NetworkViewProps) {
 
 
 const regions: string[] = [
-    "dar es salaam",
-    "dodoma",
-    "mbeya",
-    "mwanza",
+    // "dar es salaam",
+    // "dodoma",
+    // "mbeya",
+    // "mwanza",
     "arusha",
 
 ]
