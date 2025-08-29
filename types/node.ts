@@ -1,5 +1,12 @@
 export type NodeStatus = "Online" | "Offline" | "Warning" | "Maintenance"
 
+export interface Contact {
+  name: string
+  role?: string
+  phone?: string
+  email?: string
+}
+
 export interface FireDetectionNode {
   id: string
   name: string
@@ -10,4 +17,5 @@ export interface FireDetectionNode {
   region: string
   installDate: string // ISO date string
   type: "Smoke" | "Heat" | "Combined"
+  contacts?: Contact[]
 }

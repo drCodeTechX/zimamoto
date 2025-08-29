@@ -1,0 +1,10 @@
+// 🚀 TODO: Add routing with OSRM in this Expo project when one clicks navigate in the dashboard page.!!
+// Requirements:
+// 1. Use react-native-maps (MapView, Marker, Polyline).
+// 2. Define origin and destination coordinates.
+// 3. Call OSRM API (https://router.project-osrm.org/route/v1/driving/{lon1},{lat1};{lon2},{lat2}?overview=full&geometries=geojson).
+// 4. Decode GeoJSON line into { latitude, longitude } points.
+// 5. Draw a Polyline between origin and destination.
+// 6. Place markers at both start and end.
+// 7. Show distance (km) and duration (minutes) from OSRM response.
+// 8. Handle errors gracefully (console.error if fetch fails).
